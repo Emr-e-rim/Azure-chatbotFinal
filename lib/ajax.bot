@@ -1,0 +1,45 @@
+{
+    "name": "Ajaxbot",
+    "description": "",
+    "services": [
+        {
+            "type": "qna",
+            "name": "AjaxKB",
+            "kbId": "1bce7957-bdf8-420f-84ff-085fa898a742",
+            "subscriptionKey": "d67290d674d34ea4ab6f7c42b51f0375",
+            "endpointKey": "51573c3c-df07-4958-aec8-1934ff5b7c23",
+            "hostname": "https://ajaxchatbot.azurewebsites.net/qnamaker",
+            "id": "198"
+        },
+        {
+            "type": "luis",
+            "name": "Ajax",
+            "appId": "c3e31203-f659-40ac-bc45-ef43fb4d9e3e",
+            "version": "v0.1",
+            "authoringKey": "fa449e23b00d41a7a32a1d9223132f19",
+            "subscriptionKey": "c76903b0b5634cf08d15fdae573ee38a",
+            "region": "westeurope",
+            "id": "156"
+        },
+        {
+            "type": "qna",
+            "name": "Ajaxchatbot2",
+            "kbId": "6d6242db-aa0e-4a2f-80f0-0a251b03f600",
+            "subscriptionKey": "d67290d674d34ea4ab6f7c42b51f0375",
+            "endpointKey": "51573c3c-df07-4958-aec8-1934ff5b7c23",
+            "hostname": "https://ajaxchatbot.azurewebsites.net/qnamaker",
+            "id": "160"
+        },
+        {
+            "type": "qna",
+            "name": "Ajaxchatbot",
+            "kbId": "e3b3ebb6-cb84-4ccb-b38d-5bbef102ab87",
+            "subscriptionKey": "d67290d674d34ea4ab6f7c42b51f0375",
+            "endpointKey": "51573c3c-df07-4958-aec8-1934ff5b7c23",
+            "hostname": "https://ajaxchatbot.azurewebsites.net/qnamaker",
+            "id": "121"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0"
+}

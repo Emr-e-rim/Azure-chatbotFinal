@@ -1,0 +1,16 @@
+{
+    "greetings": [
+        "Hoi",
+        "Hai",
+        "Hallo",
+        "Hey"
+    ],
+    "goodbye": [
+        "Doei, leuk je gesproken te hebben!",
+        "Tot de volgende keer",
+        "Spreek je later"
+    ],
+    "easter": [
+        "In a while, crocodile"
+    ]
+}
