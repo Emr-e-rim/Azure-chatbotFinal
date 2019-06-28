@@ -66,3 +66,8 @@ To learn how, see [Deploy your bot to Azure][40] for a complete set of deploymen
 [32]: https://docs.microsoft.com/azure/bot-service/bot-builder-basics?view=azure-bot-service-4.0
 [40]: https://aka.ms/azuredeployment
 [41]: ./PREREQUISITES.md
+
+# Use of the code
+This code can be used for a chatbot in Microsoft Azure.
+The chatbot uses Luis to detect the user intent and a retrieves answers from an external MySQL database.
+Microsoft Azure's sentiment analysis API is used to detect the sentiment of the user's intent and could be applied for personalized messages.
