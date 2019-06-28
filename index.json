@@ -1,0 +1,2805 @@
+{
+  "luis_schema_version": "3.2.0",
+  "versionId": "0.1",
+  "name": "Ajax",
+  "desc": "Ajax chatbot",
+  "culture": "nl-nl",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "accessibility"
+    },
+    {
+      "name": "arena"
+    },
+    {
+      "name": "BagPolicy"
+    },
+    {
+      "name": "beveragePrices"
+    },
+    {
+      "name": "CancelTickets"
+    },
+    {
+      "name": "clubcard"
+    },
+    {
+      "name": "clubCard"
+    },
+    {
+      "name": "clubCardKopen"
+    },
+    {
+      "name": "dogs"
+    },
+    {
+      "name": "DrinkAlcohol"
+    },
+    {
+      "name": "easterEggs"
+    },
+    {
+      "name": "families"
+    },
+    {
+      "name": "FamilieticketInfo"
+    },
+    {
+      "name": "fancare"
+    },
+    {
+      "name": "fanshop"
+    },
+    {
+      "name": "ForbiddenItems"
+    },
+    {
+      "name": "games"
+    },
+    {
+      "name": "gif"
+    },
+    {
+      "name": "goodbye"
+    },
+    {
+      "name": "Greetings"
+    },
+    {
+      "name": "help"
+    },
+    {
+      "name": "name"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "otherLanguages"
+    },
+    {
+      "name": "printTicket"
+    },
+    {
+      "name": "roltrappen"
+    },
+    {
+      "name": "rules"
+    },
+    {
+      "name": "seizoenskaart"
+    },
+    {
+      "name": "seizoenskaartInfo"
+    },
+    {
+      "name": "Smokingpolicy"
+    },
+    {
+      "name": "soundSensitivity"
+    },
+    {
+      "name": "ticketsAnnuleren"
+    },
+    {
+      "name": "TicketsKopen"
+    },
+    {
+      "name": "time"
+    },
+    {
+      "name": "toegankelijkheidVoorMensenMetEenBeperking"
+    },
+    {
+      "name": "Toilets"
+    },
+    {
+      "name": "tour"
+    },
+    {
+      "name": "transport"
+    },
+    {
+      "name": "visueleBeperking"
+    },
+    {
+      "name": "wheelchairSupervisor"
+    },
+    {
+      "name": "wheelchairTickets"
+    },
+    {
+      "name": "WhereDoYouLive"
+    }
+  ],
+  "entities": [
+    {
+      "name": "club",
+      "roles": [
+        "az",
+        "FC Utrecht",
+        "Ajax",
+        "Ado den haag",
+        "psv",
+        "feyenoord"
+      ]
+    },
+    {
+      "name": "media",
+      "roles": []
+    },
+    {
+      "name": "name",
+      "roles": []
+    },
+    {
+      "name": "player",
+      "roles": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "language",
+      "subLists": [
+        {
+          "canonicalForm": "spaans",
+          "list": [
+            "Spanish"
+          ]
+        },
+        {
+          "canonicalForm": "engels",
+          "list": [
+            "english",
+            "engelse"
+          ]
+        }
+      ],
+      "roles": []
+    }
+  ],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [
+    {
+      "name": "age",
+      "roles": []
+    },
+    {
+      "name": "number",
+      "roles": []
+    }
+  ],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "/start",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "adieu",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "ajax",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "ajuus",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "auto parkeren doen",
+      "intent": "arena",
+      "entities": []
+    },
+    {
+      "text": "begrijp je de engelse taal?",
+      "intent": "otherLanguages",
+      "entities": []
+    },
+    {
+      "text": "ben je blij?",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "ben je een ajax fan",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "ben je een ajax fan ?",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "ben je een jongen of een meisje?",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "ben je een mens",
+      "intent": "name",
+      "entities": []
+    },
+    {
+      "text": "ben je een mens ?",
+      "intent": "name",
+      "entities": []
+    },
+    {
+      "text": "bye",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "ciao",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "club card",
+      "intent": "clubCard",
+      "entities": []
+    },
+    {
+      "text": "club card info",
+      "intent": "clubCard",
+      "entities": []
+    },
+    {
+      "text": "club card kopen",
+      "intent": "clubCardKopen",
+      "entities": []
+    },
+    {
+      "text": "clubcardkopen",
+      "intent": "clubCardKopen",
+      "entities": []
+    },
+    {
+      "text": "dag",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "de barcode van mijn clubcard is niet zichtbaar",
+      "intent": "clubcard",
+      "entities": []
+    },
+    {
+      "text": "de barcode van mijn seizoenskaart is niet zichtbaar",
+      "intent": "seizoenskaart",
+      "entities": []
+    },
+    {
+      "text": "de laatste keer dat ik met mijn kinderen naar een wedstrijd ging was ik ze bijna kwijt geraakt. het is echt onacceptabel! ik wil dat mijn kinderen in een vak zitten voor families",
+      "intent": "FamilieticketInfo",
+      "entities": []
+    },
+    {
+      "text": "do you speak english",
+      "intent": "otherLanguages",
+      "entities": []
+    },
+    {
+      "text": "doeg",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "doei",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "doet ajax wat voor lawaai sensitieve bezoekers",
+      "intent": "soundSensitivity",
+      "entities": []
+    },
+    {
+      "text": "drinken alcohol",
+      "intent": "rules",
+      "entities": []
+    },
+    {
+      "text": "egegwwg",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "ewgmklwgl",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "ey",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "familie korting",
+      "intent": "FamilieticketInfo",
+      "entities": []
+    },
+    {
+      "text": "familie ticket",
+      "intent": "FamilieticketInfo",
+      "entities": []
+    },
+    {
+      "text": "familie ticket info",
+      "intent": "FamilieticketInfo",
+      "entities": []
+    },
+    {
+      "text": "geef mij informatie over de club card",
+      "intent": "clubCard",
+      "entities": []
+    },
+    {
+      "text": "geef mijn informatie over seizoenkaarten",
+      "intent": "seizoenskaartInfo",
+      "entities": []
+    },
+    {
+      "text": "gefeliciteerd met de overwinning",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "gehoor beperking",
+      "intent": "toegankelijkheidVoorMensenMetEenBeperking",
+      "entities": []
+    },
+    {
+      "text": "geldt er een rookverbod",
+      "intent": "Smokingpolicy",
+      "entities": []
+    },
+    {
+      "text": "geweldig dat jullie gewonnen hebben, wanneer is de volgende wedstrijd",
+      "intent": "games",
+      "entities": []
+    },
+    {
+      "text": "gif",
+      "intent": "gif",
+      "entities": [
+        {
+          "entity": "media",
+          "startPos": 0,
+          "endPos": 2
+        }
+      ]
+    },
+    {
+      "text": "goededag",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "goedemiddag",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "goedemorgen",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "goedenavond",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "goedendag met emre",
+      "intent": "Greetings",
+      "entities": [
+        {
+          "entity": "name",
+          "startPos": 14,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "hai",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hai met emre",
+      "intent": "Greetings",
+      "entities": [
+        {
+          "entity": "name",
+          "startPos": 8,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "hallo",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hallo mijn naam is john",
+      "intent": "Greetings",
+      "entities": [
+        {
+          "entity": "name",
+          "startPos": 19,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "hallo wereld",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hallo, kun je me ajax-schema vertellen?",
+      "intent": "games",
+      "entities": []
+    },
+    {
+      "text": "heb ik begeleiding van een supervisor nodig",
+      "intent": "wheelchairSupervisor",
+      "entities": []
+    },
+    {
+      "text": "heb ik een geprint ticket nodig of kan ik een digitaal ticket gebruiken?",
+      "intent": "printTicket",
+      "entities": []
+    },
+    {
+      "text": "heb je gifs",
+      "intent": "gif",
+      "entities": [
+        {
+          "entity": "media",
+          "startPos": 7,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "hebben jullie ook rondleidingen?",
+      "intent": "tour",
+      "entities": []
+    },
+    {
+      "text": "hebben jullie tours",
+      "intent": "tour",
+      "entities": []
+    },
+    {
+      "text": "hebben jullie twitter",
+      "intent": "fancare",
+      "entities": []
+    },
+    {
+      "text": "heeft ajax het hoogste doelsaldo ?",
+      "intent": "games",
+      "entities": []
+    },
+    {
+      "text": "heeft ajax wat te bieden voor een beperkt zicht",
+      "intent": "visueleBeperking",
+      "entities": []
+    },
+    {
+      "text": "heeft het stadion een invalidentoegang?",
+      "intent": "accessibility",
+      "entities": []
+    },
+    {
+      "text": "heey",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "help",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "help]",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "het gaat je goed",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "hey",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hey ik heet lori",
+      "intent": "Greetings",
+      "entities": [
+        {
+          "entity": "name",
+          "startPos": 12,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "hey jax",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hey, hoe laat begint de volgende wedstrijd?",
+      "intent": "games",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hi jax",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hoe annuleer ik mijn ticket",
+      "intent": "ticketsAnnuleren",
+      "entities": []
+    },
+    {
+      "text": "hoe bestel ik meerdere kaarten naast elkaar met meerde clubcards",
+      "intent": "clubcard",
+      "entities": []
+    },
+    {
+      "text": "hoe duur is de bier",
+      "intent": "beveragePrices",
+      "entities": []
+    },
+    {
+      "text": "hoe duur is een club card?",
+      "intent": "clubcard",
+      "entities": []
+    },
+    {
+      "text": "hoe duur is het bier ?",
+      "intent": "beveragePrices",
+      "entities": []
+    },
+    {
+      "text": "hoe eindigd de volgende wedstrijd",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "hoe eindigd de volgende wedstrijd ?",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "hoe gaat het",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "hoe gaat het ?",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "hoe gaat het met je",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "hoe gaat het met je?",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "hoe gaat t?",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "hoe groot is de arena?",
+      "intent": "arena",
+      "entities": []
+    },
+    {
+      "text": "hoe groot mag mij tas zijn",
+      "intent": "BagPolicy",
+      "entities": []
+    },
+    {
+      "text": "hoe hat het?",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "hoe heet je",
+      "intent": "WhereDoYouLive",
+      "entities": []
+    },
+    {
+      "text": "hoe heet je ?",
+      "intent": "name",
+      "entities": []
+    },
+    {
+      "text": "hoe heet je favoriete speler dan",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "hoe heet je?",
+      "intent": "name",
+      "entities": []
+    },
+    {
+      "text": "hoe kan ik aan een club card komen",
+      "intent": "clubCardKopen",
+      "entities": []
+    },
+    {
+      "text": "hoe kan ik een club card kopen",
+      "intent": "clubCardKopen",
+      "entities": []
+    },
+    {
+      "text": "hoe kan ik een clubcard kopen ?",
+      "intent": "clubcard",
+      "entities": []
+    },
+    {
+      "text": "hoe kan ik een ticket kopen",
+      "intent": "TicketsKopen",
+      "entities": []
+    },
+    {
+      "text": "hoe kan ik fancare bereiken",
+      "intent": "fancare",
+      "entities": []
+    },
+    {
+      "text": "hoe kan ik het ticket printen?",
+      "intent": "printTicket",
+      "entities": []
+    },
+    {
+      "text": "hoe kan ik je noemen",
+      "intent": "name",
+      "entities": []
+    },
+    {
+      "text": "hoe kan ik mijn seizoenskaart opzeggen",
+      "intent": "seizoenskaart",
+      "entities": []
+    },
+    {
+      "text": "hoe kan ik mijn ticket opzeggen",
+      "intent": "ticketsAnnuleren",
+      "entities": []
+    },
+    {
+      "text": "hoe kan ik tickets kopen?",
+      "intent": "TicketsKopen",
+      "entities": []
+    },
+    {
+      "text": "hoe kom je in aanmerking voor het familie vak",
+      "intent": "FamilieticketInfo",
+      "entities": []
+    },
+    {
+      "text": "hoe koop ik een club card",
+      "intent": "clubCardKopen",
+      "entities": []
+    },
+    {
+      "text": "hoe laat gaat de metro",
+      "intent": "transport",
+      "entities": []
+    },
+    {
+      "text": "hoe laat gaat de trein ?",
+      "intent": "transport",
+      "entities": []
+    },
+    {
+      "text": "hoe laat is het",
+      "intent": "time",
+      "entities": []
+    },
+    {
+      "text": "hoe laat is het ?",
+      "intent": "time",
+      "entities": []
+    },
+    {
+      "text": "hoe laat?",
+      "intent": "time",
+      "entities": []
+    },
+    {
+      "text": "hoe moet ik mijn ticket meenemen",
+      "intent": "printTicket",
+      "entities": []
+    },
+    {
+      "text": "hoe oud ben je",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "hoe toegankelijk is de johan cruijff arena?",
+      "intent": "accessibility",
+      "entities": []
+    },
+    {
+      "text": "hoe veel is een seizoenskaart?",
+      "intent": "seizoenskaart",
+      "entities": []
+    },
+    {
+      "text": "hoe vol zit de arena?",
+      "intent": "arena",
+      "entities": []
+    },
+    {
+      "text": "hoe weet ik of ik een club card nodig heb voor een wedstrijd waar ik kaarten voor wil bestellen?",
+      "intent": "clubcard",
+      "entities": []
+    },
+    {
+      "text": "hoe weet ik of ik een clubcard nodig heb",
+      "intent": "clubcard",
+      "entities": []
+    },
+    {
+      "text": "hoe werkt een club card",
+      "intent": "clubCard",
+      "entities": []
+    },
+    {
+      "text": "hoe werkt een seizoenkaart",
+      "intent": "seizoenskaartInfo",
+      "entities": []
+    },
+    {
+      "text": "hoe word ik club card houder?",
+      "intent": "clubcard",
+      "entities": []
+    },
+    {
+      "text": "hoe zeg ik mijn kaartje op",
+      "intent": "ticketsAnnuleren",
+      "entities": []
+    },
+    {
+      "text": "hoe zit het met huplhonden",
+      "intent": "dogs",
+      "entities": []
+    },
+    {
+      "text": "hoeveel betaal ik voor bier",
+      "intent": "beveragePrices",
+      "entities": []
+    },
+    {
+      "text": "hoeveel betaal ik voor cola",
+      "intent": "beveragePrices",
+      "entities": []
+    },
+    {
+      "text": "hoeveel betaal ik voor koffie",
+      "intent": "beveragePrices",
+      "entities": []
+    },
+    {
+      "text": "hoeveel is een biertje?",
+      "intent": "beveragePrices",
+      "entities": []
+    },
+    {
+      "text": "hoeveel kost bier",
+      "intent": "beveragePrices",
+      "entities": []
+    },
+    {
+      "text": "hoeveel kost coca cola",
+      "intent": "beveragePrices",
+      "entities": []
+    },
+    {
+      "text": "hoeveel mensen passen er in het stadium?",
+      "intent": "arena",
+      "entities": []
+    },
+    {
+      "text": "hoeveel punten heeft ajax in de eredivisie",
+      "intent": "games",
+      "entities": []
+    },
+    {
+      "text": "hoeveel weet jij over ajax?",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "hoi",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hoi ik wil graag een ticket kopen",
+      "intent": "TicketsKopen",
+      "entities": []
+    },
+    {
+      "text": "hoi jax",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hoi john",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hoi met john",
+      "intent": "Greetings",
+      "entities": [
+        {
+          "entity": "name",
+          "startPos": 8,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "hoi mijn naam is john",
+      "intent": "Greetings",
+      "entities": [
+        {
+          "entity": "name",
+          "startPos": 17,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "hoi, met steven",
+      "intent": "Greetings",
+      "entities": [
+        {
+          "entity": "name",
+          "startPos": 9,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "hoiu",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "hoogsensifiet voor geluid",
+      "intent": "soundSensitivity",
+      "entities": []
+    },
+    {
+      "text": "hoogsensitief voor geluid",
+      "intent": "soundSensitivity",
+      "entities": []
+    },
+    {
+      "text": "houd ajax rekening met fans met een beperking",
+      "intent": "toegankelijkheidVoorMensenMetEenBeperking",
+      "entities": []
+    },
+    {
+      "text": "houdoe",
+      "intent": "Greetings",
+      "entities": []
+    },
+    {
+      "text": "ik ben bejaard",
+      "intent": "accessibility",
+      "entities": []
+    },
+    {
+      "text": "ik ben een fan van ajax",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "ik ben jonger dan 18. mag ik alcohol drinken?",
+      "intent": "DrinkAlcohol",
+      "entities": []
+    },
+    {
+      "text": "ik ben sensitief voor lawaai",
+      "intent": "soundSensitivity",
+      "entities": []
+    },
+    {
+      "text": "ik ben slechtziend",
+      "intent": "accessibility",
+      "entities": []
+    },
+    {
+      "text": "ik heb beperkt zicht is hier wat voor",
+      "intent": "visueleBeperking",
+      "entities": []
+    },
+    {
+      "text": "ik heb een visuele beperking",
+      "intent": "visueleBeperking",
+      "entities": []
+    },
+    {
+      "text": "ik heb een vraag",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "ik heb moeite met horen",
+      "intent": "accessibility",
+      "entities": []
+    },
+    {
+      "text": "ik heb slecht zicht",
+      "intent": "visueleBeperking",
+      "entities": []
+    },
+    {
+      "text": "ik kan niet naar de wedstrijd",
+      "intent": "CancelTickets",
+      "entities": []
+    },
+    {
+      "text": "ik kan niet op de dag van de wedstrijd",
+      "intent": "CancelTickets",
+      "entities": []
+    },
+    {
+      "text": "ik moet helaas mijn ticket cancelen",
+      "intent": "ticketsAnnuleren",
+      "entities": []
+    },
+    {
+      "text": "ik vind jou niet zo leuk",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "ik wil bij ajax komen voetballen, hoe doe ik dat?",
+      "intent": "families",
+      "entities": []
+    },
+    {
+      "text": "ik wil een club card",
+      "intent": "clubCardKopen",
+      "entities": []
+    },
+    {
+      "text": "ik wil een clubcard kopen",
+      "intent": "clubCardKopen",
+      "entities": []
+    },
+    {
+      "text": "ik wil een clubkaart kopen ?",
+      "intent": "clubcard",
+      "entities": []
+    },
+    {
+      "text": "ik wil een gif zien",
+      "intent": "gif",
+      "entities": []
+    },
+    {
+      "text": "ik wil een ticket kopen",
+      "intent": "TicketsKopen",
+      "entities": []
+    },
+    {
+      "text": "ik wil een ticket kopen ?",
+      "intent": "TicketsKopen",
+      "entities": []
+    },
+    {
+      "text": "ik wil graag een grapig plaatje zien",
+      "intent": "gif",
+      "entities": [
+        {
+          "entity": "media",
+          "startPos": 24,
+          "endPos": 30
+        }
+      ]
+    },
+    {
+      "text": "ik wil graag een grappige gif zien",
+      "intent": "gif",
+      "entities": [
+        {
+          "entity": "media",
+          "startPos": 26,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "ik wil graag een nieuwe hoodie",
+      "intent": "fanshop",
+      "entities": []
+    },
+    {
+      "text": "ik wil graag tickets voor mijn kinderen kopen",
+      "intent": "FamilieticketInfo",
+      "entities": []
+    },
+    {
+      "text": "ik wil iets vragen",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "ik wil kaartjes voor mindervaliden kopen",
+      "intent": "wheelchairTickets",
+      "entities": []
+    },
+    {
+      "text": "ik wil meer weten over de club cards",
+      "intent": "clubCard",
+      "entities": []
+    },
+    {
+      "text": "ik wil meer weten over seizoenkaarten",
+      "intent": "seizoenskaartInfo",
+      "entities": []
+    },
+    {
+      "text": "ik wil mijn kaartje annuleren",
+      "intent": "CancelTickets",
+      "entities": []
+    },
+    {
+      "text": "ik wil mijn seizoenskaart opzeggen",
+      "intent": "seizoenskaart",
+      "entities": []
+    },
+    {
+      "text": "ik wil mijn ticket annuleren",
+      "intent": "CancelTickets",
+      "entities": []
+    },
+    {
+      "text": "ik wil tickets kopen voor een rolstoel gebruiker",
+      "intent": "wheelchairTickets",
+      "entities": []
+    },
+    {
+      "text": "ik wil tickets voor rolstoelgebruikers",
+      "intent": "wheelchairTickets",
+      "entities": []
+    },
+    {
+      "text": "ik zit in een rolstoel",
+      "intent": "accessibility",
+      "entities": []
+    },
+    {
+      "text": "ik zou graag een club card willen",
+      "intent": "clubCardKopen",
+      "entities": []
+    },
+    {
+      "text": "ik zou graag meer informatie willen over seizoenkaarten",
+      "intent": "seizoenskaartInfo",
+      "entities": []
+    },
+    {
+      "text": "informatie over familie tickets",
+      "intent": "FamilieticketInfo",
+      "entities": []
+    },
+    {
+      "text": "is assistentiehond toegestaan?",
+      "intent": "accessibility",
+      "entities": []
+    },
+    {
+      "text": "is de arena rolstoel vriendelijk",
+      "intent": "accessibility",
+      "entities": []
+    },
+    {
+      "text": "is er een familievak",
+      "intent": "families",
+      "entities": []
+    },
+    {
+      "text": "is er een lift",
+      "intent": "roltrappen",
+      "entities": []
+    },
+    {
+      "text": "is er een mogelijkheid voor familiekorting",
+      "intent": "FamilieticketInfo",
+      "entities": []
+    },
+    {
+      "text": "is er een roltrap?",
+      "intent": "roltrappen",
+      "entities": []
+    },
+    {
+      "text": "is er een service voor een visuele beperking",
+      "intent": "visueleBeperking",
+      "entities": []
+    },
+    {
+      "text": "is er familie korting",
+      "intent": "FamilieticketInfo",
+      "entities": []
+    },
+    {
+      "text": "is er familie korting ?",
+      "intent": "families",
+      "entities": []
+    },
+    {
+      "text": "is er korting voor families",
+      "intent": "FamilieticketInfo",
+      "entities": []
+    },
+    {
+      "text": "is er wat voor hoogsensitieve fans",
+      "intent": "soundSensitivity",
+      "entities": []
+    },
+    {
+      "text": "is het mogelijk een club card te kopen",
+      "intent": "clubCardKopen",
+      "entities": []
+    },
+    {
+      "text": "is het mogelijk om mijn kaartje te annuleren",
+      "intent": "ticketsAnnuleren",
+      "entities": []
+    },
+    {
+      "text": "is het mogelijk om tickets voor mindervaliden te krijgen",
+      "intent": "wheelchairTickets",
+      "entities": []
+    },
+    {
+      "text": "is het toegestaan om alcohol te drinken",
+      "intent": "DrinkAlcohol",
+      "entities": []
+    },
+    {
+      "text": "is het toegestaan om bier te drinken",
+      "intent": "DrinkAlcohol",
+      "entities": []
+    },
+    {
+      "text": "is het toegestaan om te roken",
+      "intent": "Smokingpolicy",
+      "entities": []
+    },
+    {
+      "text": "is het toegestaan om wijn te drinken",
+      "intent": "DrinkAlcohol",
+      "entities": []
+    },
+    {
+      "text": "is roken toegestaan",
+      "intent": "Smokingpolicy",
+      "entities": []
+    },
+    {
+      "text": "is roken toegestaan?",
+      "intent": "Smokingpolicy",
+      "entities": []
+    },
+    {
+      "text": "ja, johan cruijff heeft zoveel gezegd.",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "ja, nee, maar ik wil gewoon weten hoe duur een seisoenskaart is",
+      "intent": "seizoenskaart",
+      "entities": []
+    },
+    {
+      "text": "jax bot wat weet je wel",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "je begrijpt me niet",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "kan een fans met een berperking naar een wedstrijd",
+      "intent": "toegankelijkheidVoorMensenMetEenBeperking",
+      "entities": []
+    },
+    {
+      "text": "kan er wat geregeld worden voor een visuele beperking",
+      "intent": "visueleBeperking",
+      "entities": []
+    },
+    {
+      "text": "kan ik alchohol meenemen ?",
+      "intent": "rules",
+      "entities": []
+    },
+    {
+      "text": "kan ik alchol drinken",
+      "intent": "DrinkAlcohol",
+      "entities": []
+    },
+    {
+      "text": "kan ik alcohol dirnken",
+      "intent": "rules",
+      "entities": []
+    },
+    {
+      "text": "kan ik alcohol drinken",
+      "intent": "rules",
+      "entities": []
+    },
+    {
+      "text": "kan ik alcohol drinken ?",
+      "intent": "rules",
+      "entities": []
+    },
+    {
+      "text": "kan ik alcohol drinken of drugs gebruiken?",
+      "intent": "rules",
+      "entities": []
+    },
+    {
+      "text": "kan ik alcohol drinken?",
+      "intent": "DrinkAlcohol",
+      "entities": []
+    },
+    {
+      "text": "kan ik alcohol meebrengen ?",
+      "intent": "rules",
+      "entities": []
+    },
+    {
+      "text": "kan ik als familie korting krijgen",
+      "intent": "FamilieticketInfo",
+      "entities": []
+    },
+    {
+      "text": "kan ik annuleren ?",
+      "intent": "CancelTickets",
+      "entities": []
+    },
+    {
+      "text": "kan ik beter met de auto of met ov komen",
+      "intent": "transport",
+      "entities": []
+    },
+    {
+      "text": "kan ik bier drinken",
+      "intent": "DrinkAlcohol",
+      "entities": []
+    },
+    {
+      "text": "kan ik bier kopen in de stadion?",
+      "intent": "arena",
+      "entities": []
+    },
+    {
+      "text": "kan ik cola drinken",
+      "intent": "rules",
+      "entities": []
+    },
+    {
+      "text": "kan ik de roltrap gebruiken ?",
+      "intent": "roltrappen",
+      "entities": []
+    },
+    {
+      "text": "kan ik een clubcard kopen",
+      "intent": "clubcard",
+      "entities": []
+    },
+    {
+      "text": "kan ik een clubcard kopen ?",
+      "intent": "clubcard",
+      "entities": []
+    },
+    {
+      "text": "kan ik een clubkaart kopen ?",
+      "intent": "clubcard",
+      "entities": []
+    },
+    {
+      "text": "kan ik een digitaal kaartje gebruiken?",
+      "intent": "printTicket",
+      "entities": []
+    },
+    {
+      "text": "kan ik een kinderwagen meenemen naar de wedstrijd?",
+      "intent": "accessibility",
+      "entities": []
+    },
+    {
+      "text": "kan ik een koffer meenemen ?",
+      "intent": "BagPolicy",
+      "entities": []
+    },
+    {
+      "text": "kan ik een mok kopen ?",
+      "intent": "fanshop",
+      "entities": []
+    },
+    {
+      "text": "kan ik een rugzak meenemen ?",
+      "intent": "rules",
+      "entities": []
+    },
+    {
+      "text": "kan ik een seizoenkaart kopen",
+      "intent": "seizoenskaart",
+      "entities": []
+    },
+    {
+      "text": "kan ik een seizoenskaart kopen",
+      "intent": "seizoenskaart",
+      "entities": []
+    },
+    {
+      "text": "kan ik een seizoenskaart kopen?",
+      "intent": "seizoenskaart",
+      "entities": []
+    },
+    {
+      "text": "kan ik een shirt van veldman kopen",
+      "intent": "fanshop",
+      "entities": [
+        {
+          "entity": "player",
+          "startPos": 21,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "kan ik in de kleedkamer ?",
+      "intent": "tour",
+      "entities": []
+    },
+    {
+      "text": "kan ik informatie over een club seizoenkaart krijgen",
+      "intent": "seizoenskaartInfo",
+      "entities": []
+    },
+    {
+      "text": "kan ik kaartjes voor rolstoelgebruikers kopen",
+      "intent": "wheelchairTickets",
+      "entities": []
+    },
+    {
+      "text": "kan ik makkelijk parkeren bij de arena?",
+      "intent": "arena",
+      "entities": []
+    },
+    {
+      "text": "kan ik meer club card informatie krijgen",
+      "intent": "clubCard",
+      "entities": []
+    },
+    {
+      "text": "kan ik meerdere seizoenskaarten bestellen",
+      "intent": "seizoenskaart",
+      "entities": []
+    },
+    {
+      "text": "kan ik mijn blindegeleidehond meenemen",
+      "intent": "dogs",
+      "entities": []
+    },
+    {
+      "text": "kan ik mijn kaartje annuleren",
+      "intent": "CancelTickets",
+      "entities": []
+    },
+    {
+      "text": "kan ik mijn rugzak meenemen",
+      "intent": "rules",
+      "entities": []
+    },
+    {
+      "text": "kan ik mijn rugzak meenemen?",
+      "intent": "rules",
+      "entities": []
+    },
+    {
+      "text": "kan ik mijn seizoenskaart in termijnen betalen",
+      "intent": "seizoenskaart",
+      "entities": []
+    },
+    {
+      "text": "kan ik mijn seizoenskaart verlengen",
+      "intent": "seizoenskaart",
+      "entities": []
+    },
+    {
+      "text": "kan ik mijn ticket annuleren",
+      "intent": "CancelTickets",
+      "entities": []
+    },
+    {
+      "text": "kan ik mijn ticket digitaal meenemen",
+      "intent": "printTicket",
+      "entities": []
+    },
+    {
+      "text": "kan ik mijn ticket opzeggen",
+      "intent": "ticketsAnnuleren",
+      "entities": []
+    },
+    {
+      "text": "kan ik misschien mijn kaartje annuleren",
+      "intent": "ticketsAnnuleren",
+      "entities": []
+    },
+    {
+      "text": "kan ik roken",
+      "intent": "Smokingpolicy",
+      "entities": []
+    },
+    {
+      "text": "kan ik roken ?",
+      "intent": "Smokingpolicy",
+      "entities": []
+    },
+    {
+      "text": "kan ik tickets kopen voor het rolstoel platform",
+      "intent": "wheelchairTickets",
+      "entities": []
+    },
+    {
+      "text": "kan ik tickets kopen voor het rolstoel platform?",
+      "intent": "accessibility",
+      "entities": []
+    },
+    {
+      "text": "kan ik tickets voor mindervaliden kopen",
+      "intent": "wheelchairTickets",
+      "entities": []
+    },
+    {
+      "text": "kan ik tickets voor rolstoelgebruikers kopen",
+      "intent": "wheelchairTickets",
+      "entities": []
+    },
+    {
+      "text": "kan ik wijn drinken",
+      "intent": "DrinkAlcohol",
+      "entities": []
+    },
+    {
+      "text": "kan je me helpen",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "kan je mij helpen?",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "ken je nog meer johan cruijff quotes?",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "kinderen korting",
+      "intent": "families",
+      "entities": []
+    },
+    {
+      "text": "koop club card",
+      "intent": "clubCardKopen",
+      "entities": []
+    },
+    {
+      "text": "koop een club card",
+      "intent": "clubCardKopen",
+      "entities": []
+    },
+    {
+      "text": "kunnen begeleiders bij de bezoeker in een rolstoel blijven",
+      "intent": "wheelchairSupervisor",
+      "entities": []
+    },
+    {
+      "text": "kunnen bezoekers in een rolstoel een begeleider meenemen",
+      "intent": "wheelchairSupervisor",
+      "entities": []
+    },
+    {
+      "text": "kunnen bezoekers met een beperking naar de wedstrijd komen",
+      "intent": "toegankelijkheidVoorMensenMetEenBeperking",
+      "entities": []
+    },
+    {
+      "text": "kunnen mensen met een beperking een wedstrijd bezoeken",
+      "intent": "toegankelijkheidVoorMensenMetEenBeperking",
+      "entities": []
+    },
+    {
+      "text": "kunnen mensen met een beperking een wedstrijd bezoeken?",
+      "intent": "accessibility",
+      "entities": []
+    },
+    {
+      "text": "kunnen mindervalide bezoekers een begeleider meenemen",
+      "intent": "wheelchairSupervisor",
+      "entities": []
+    },
+    {
+      "text": "kunnen mindervalide bezoekers een begeleider meenemen?",
+      "intent": "accessibility",
+      "entities": []
+    },
+    {
+      "text": "kunnen voor geluid sensitieve fans een wedstrijd bezoeken",
+      "intent": "soundSensitivity",
+      "entities": []
+    },
+    {
+      "text": "laat me een club card kopen",
+      "intent": "clubCardKopen",
+      "entities": []
+    },
+    {
+      "text": "laat me een gif zien",
+      "intent": "gif",
+      "entities": []
+    },
+    {
+      "text": "laat me een leuk plaatje zien",
+      "intent": "gif",
+      "entities": []
+    },
+    {
+      "text": "later",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "later alligator",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "later, alligator",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "leuk je te ontmoeten",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "maar waar kan ik parkeren",
+      "intent": "arena",
+      "entities": []
+    },
+    {
+      "text": "mag ik alchol meebrengen ?",
+      "intent": "rules",
+      "entities": []
+    },
+    {
+      "text": "mag ik alcohol drinken",
+      "intent": "DrinkAlcohol",
+      "entities": []
+    },
+    {
+      "text": "mag ik alcohol drinken?",
+      "intent": "DrinkAlcohol",
+      "entities": []
+    },
+    {
+      "text": "mag ik alcohol meenemen ?",
+      "intent": "rules",
+      "entities": []
+    },
+    {
+      "text": "mag ik bier drinken",
+      "intent": "DrinkAlcohol",
+      "entities": []
+    },
+    {
+      "text": "mag ik cola meenemen ?",
+      "intent": "rules",
+      "entities": []
+    },
+    {
+      "text": "mag ik drugs meenemen",
+      "intent": "ForbiddenItems",
+      "entities": []
+    },
+    {
+      "text": "mag ik een rugzak meenemen",
+      "intent": "BagPolicy",
+      "entities": []
+    },
+    {
+      "text": "mag ik een rugzak meenemen ?",
+      "intent": "rules",
+      "entities": []
+    },
+    {
+      "text": "mag ik een tas meenemen",
+      "intent": "BagPolicy",
+      "entities": []
+    },
+    {
+      "text": "mag ik in de kleedkamer ?",
+      "intent": "tour",
+      "entities": []
+    },
+    {
+      "text": "mag ik in de kleedkamers?",
+      "intent": "tour",
+      "entities": []
+    },
+    {
+      "text": "mag ik informatie over club cards",
+      "intent": "clubCard",
+      "entities": []
+    },
+    {
+      "text": "mag ik mijn hulphond meenemen",
+      "intent": "dogs",
+      "entities": []
+    },
+    {
+      "text": "mag ik op het veld?",
+      "intent": "tour",
+      "entities": []
+    },
+    {
+      "text": "mag ik roken ?",
+      "intent": "Smokingpolicy",
+      "entities": []
+    },
+    {
+      "text": "mag ik wapens meenemen",
+      "intent": "ForbiddenItems",
+      "entities": []
+    },
+    {
+      "text": "mag ik whiskey drinken",
+      "intent": "DrinkAlcohol",
+      "entities": []
+    },
+    {
+      "text": "mag ik wijn drinken",
+      "intent": "DrinkAlcohol",
+      "entities": []
+    },
+    {
+      "text": "mag ik wodka drinken",
+      "intent": "DrinkAlcohol",
+      "entities": []
+    },
+    {
+      "text": "mag je roken",
+      "intent": "Smokingpolicy",
+      "entities": []
+    },
+    {
+      "text": "mag je roken in de arena",
+      "intent": "Smokingpolicy",
+      "entities": []
+    },
+    {
+      "text": "mazzel",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "mijn clubcard is verlopen, hoe kan ik deze verlengen ?",
+      "intent": "clubcard",
+      "entities": []
+    },
+    {
+      "text": "mijn kind is hoogsensitief voor geluid is hier wat voor",
+      "intent": "soundSensitivity",
+      "entities": []
+    },
+    {
+      "text": "mijn uitrecht staat niet op mijn seizoenskaart",
+      "intent": "seizoenskaart",
+      "entities": []
+    },
+    {
+      "text": "mijn zicht is beperkt hebben jullie hier war voor te bieden",
+      "intent": "visueleBeperking",
+      "entities": []
+    },
+    {
+      "text": "moet ik een fysiek ticket hebben?",
+      "intent": "printTicket",
+      "entities": []
+    },
+    {
+      "text": "moet ik een rolstoel meenemen als rolstoelgebruiker",
+      "intent": "wheelchairSupervisor",
+      "entities": []
+    },
+    {
+      "text": "moet ik een supervisor meenemen",
+      "intent": "wheelchairSupervisor",
+      "entities": []
+    },
+    {
+      "text": "moet ik het ticket op papier afdrukken?",
+      "intent": "printTicket",
+      "entities": []
+    },
+    {
+      "text": "moet ik het ticket printen",
+      "intent": "printTicket",
+      "entities": []
+    },
+    {
+      "text": "moet ik papieren ticket gebruiken?",
+      "intent": "printTicket",
+      "entities": []
+    },
+    {
+      "text": "moeten fans in een rolstoel een toezichthouder meenemen",
+      "intent": "wheelchairSupervisor",
+      "entities": []
+    },
+    {
+      "text": "moeten mindervaliden een supervisor",
+      "intent": "wheelchairSupervisor",
+      "entities": []
+    },
+    {
+      "text": "naam",
+      "intent": "name",
+      "entities": []
+    },
+    {
+      "text": "nu laat je me lachen, vertel me nu, welke informatie heb je voor mij over ajax",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "ok en wat kan je?",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "ok spreek je engels?&gt;",
+      "intent": "otherLanguages",
+      "entities": []
+    },
+    {
+      "text": "ola mijn naam is gustavo",
+      "intent": "Greetings",
+      "entities": [
+        {
+          "entity": "name",
+          "startPos": 17,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "omg ik wil gewoon weten hoe laat de wedstrijd begint",
+      "intent": "games",
+      "entities": []
+    },
+    {
+      "text": "op welke wedstrijd kan ik een ticket kopen",
+      "intent": "TicketsKopen",
+      "entities": []
+    },
+    {
+      "text": "parkeren",
+      "intent": "arena",
+      "entities": []
+    },
+    {
+      "text": "print ticket",
+      "intent": "printTicket",
+      "entities": []
+    },
+    {
+      "text": "question",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "rgkljrlgjklr",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "rgnrjkweg",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "rolstoel supervisor",
+      "intent": "wheelchairSupervisor",
+      "entities": []
+    },
+    {
+      "text": "rolstoel tickets",
+      "intent": "wheelchairTickets",
+      "entities": []
+    },
+    {
+      "text": "seizoenkaart",
+      "intent": "seizoenskaartInfo",
+      "entities": []
+    },
+    {
+      "text": "seizoenkaart info",
+      "intent": "seizoenskaartInfo",
+      "entities": []
+    },
+    {
+      "text": "shirt kopen",
+      "intent": "fanshop",
+      "entities": []
+    },
+    {
+      "text": "soreek je engels?",
+      "intent": "otherLanguages",
+      "entities": []
+    },
+    {
+      "text": "spreek je andere talen",
+      "intent": "otherLanguages",
+      "entities": []
+    },
+    {
+      "text": "spreek je duits?",
+      "intent": "otherLanguages",
+      "entities": []
+    },
+    {
+      "text": "spreek je engels",
+      "intent": "otherLanguages",
+      "entities": []
+    },
+    {
+      "text": "spreek je later",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "spreek je ook engels?",
+      "intent": "otherLanguages",
+      "entities": []
+    },
+    {
+      "text": "spreek je spaans",
+      "intent": "otherLanguages",
+      "entities": []
+    },
+    {
+      "text": "ticket annuleren",
+      "intent": "CancelTickets",
+      "entities": []
+    },
+    {
+      "text": "ticket printen",
+      "intent": "printTicket",
+      "entities": []
+    },
+    {
+      "text": "tickets annuleren",
+      "intent": "ticketsAnnuleren",
+      "entities": []
+    },
+    {
+      "text": "tijd",
+      "intent": "time",
+      "entities": []
+    },
+    {
+      "text": "time",
+      "intent": "time",
+      "entities": []
+    },
+    {
+      "text": "toedeloe",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "toegankelijkheid voor mensen met een beperking",
+      "intent": "toegankelijkheidVoorMensenMetEenBeperking",
+      "entities": []
+    },
+    {
+      "text": "tot kijk",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "tot morgen",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "tot weerziens",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "tot ziens",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "vaarwel",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "verkopen jullie alcohol?",
+      "intent": "rules",
+      "entities": []
+    },
+    {
+      "text": "verkopen jullie shirts ?",
+      "intent": "fanshop",
+      "entities": []
+    },
+    {
+      "text": "verkopen jullie sinas ?",
+      "intent": "rules",
+      "entities": []
+    },
+    {
+      "text": "verkopen kullie alcohol",
+      "intent": "rules",
+      "entities": []
+    },
+    {
+      "text": "visuele beperking",
+      "intent": "visueleBeperking",
+      "entities": []
+    },
+    {
+      "text": "voor wie is het familie vak",
+      "intent": "FamilieticketInfo",
+      "entities": []
+    },
+    {
+      "text": "waar is de arena",
+      "intent": "arena",
+      "entities": []
+    },
+    {
+      "text": "waar is de arena?",
+      "intent": "arena",
+      "entities": []
+    },
+    {
+      "text": "waar is de bus",
+      "intent": "transport",
+      "entities": []
+    },
+    {
+      "text": "waar is de familievak",
+      "intent": "families",
+      "entities": []
+    },
+    {
+      "text": "waar is de ingang?",
+      "intent": "arena",
+      "entities": []
+    },
+    {
+      "text": "waar is de metro",
+      "intent": "transport",
+      "entities": []
+    },
+    {
+      "text": "waar is de wc",
+      "intent": "Toilets",
+      "entities": []
+    },
+    {
+      "text": "waar is het familie vak",
+      "intent": "FamilieticketInfo",
+      "entities": []
+    },
+    {
+      "text": "waar is het familievak",
+      "intent": "families",
+      "entities": []
+    },
+    {
+      "text": "waar is het onveilig?",
+      "intent": "families",
+      "entities": []
+    },
+    {
+      "text": "waar is het station",
+      "intent": "transport",
+      "entities": []
+    },
+    {
+      "text": "waar kan ik de wc vinden ?",
+      "intent": "Toilets",
+      "entities": []
+    },
+    {
+      "text": "waar kan ik een club card kopen",
+      "intent": "clubCardKopen",
+      "entities": []
+    },
+    {
+      "text": "waar kan ik een clubard kopen",
+      "intent": "clubcard",
+      "entities": []
+    },
+    {
+      "text": "waar kan ik een kaartje kopen",
+      "intent": "TicketsKopen",
+      "entities": []
+    },
+    {
+      "text": "waar kan ik je vinden",
+      "intent": "WhereDoYouLive",
+      "entities": []
+    },
+    {
+      "text": "waar kan ik mijn tas opbergen",
+      "intent": "BagPolicy",
+      "entities": []
+    },
+    {
+      "text": "waar kan ik parkeren",
+      "intent": "arena",
+      "entities": []
+    },
+    {
+      "text": "waar kan ik parkeren ?",
+      "intent": "arena",
+      "entities": []
+    },
+    {
+      "text": "waar kan ik parkeren?",
+      "intent": "arena",
+      "entities": []
+    },
+    {
+      "text": "waar kom je vandaan",
+      "intent": "WhereDoYouLive",
+      "entities": []
+    },
+    {
+      "text": "waar kom je vandaan ?",
+      "intent": "WhereDoYouLive",
+      "entities": []
+    },
+    {
+      "text": "waar koop ik een ticket",
+      "intent": "TicketsKopen",
+      "entities": []
+    },
+    {
+      "text": "waar leef je ?",
+      "intent": "WhereDoYouLive",
+      "entities": []
+    },
+    {
+      "text": "waar staat je huis",
+      "intent": "WhereDoYouLive",
+      "entities": []
+    },
+    {
+      "text": "waar woon je ?",
+      "intent": "WhereDoYouLive",
+      "entities": []
+    },
+    {
+      "text": "waar zijn de fietsenstallingen?",
+      "intent": "arena",
+      "entities": []
+    },
+    {
+      "text": "waar zijn de rolstoelplaatsen?",
+      "intent": "accessibility",
+      "entities": []
+    },
+    {
+      "text": "waar zijn de toiletten",
+      "intent": "Toilets",
+      "entities": []
+    },
+    {
+      "text": "waarmee kan je me helpen",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "waneer is de volgende ajax wedstrijd?",
+      "intent": "games",
+      "entities": []
+    },
+    {
+      "text": "wanneer heeft ajax coor het laatst gewonnen ?",
+      "intent": "games",
+      "entities": []
+    },
+    {
+      "text": "wanneer heeft ajax voor het laatst verloren",
+      "intent": "games",
+      "entities": []
+    },
+    {
+      "text": "wanneer is de volgende wedstrijd",
+      "intent": "games",
+      "entities": []
+    },
+    {
+      "text": "wanneer is fancare open",
+      "intent": "fancare",
+      "entities": []
+    },
+    {
+      "text": "wanneer ontvang ik mijn clubcard",
+      "intent": "clubcard",
+      "entities": []
+    },
+    {
+      "text": "wat bied ajax voor geluid sensitieve fans",
+      "intent": "soundSensitivity",
+      "entities": []
+    },
+    {
+      "text": "wat bied een club card mij",
+      "intent": "clubCard",
+      "entities": []
+    },
+    {
+      "text": "wat bied een seizoenkaart",
+      "intent": "seizoenskaartInfo",
+      "entities": []
+    },
+    {
+      "text": "wat doe je voor visuele beperking",
+      "intent": "visueleBeperking",
+      "entities": []
+    },
+    {
+      "text": "wat doet ajax voor bezoekers met een beperking",
+      "intent": "toegankelijkheidVoorMensenMetEenBeperking",
+      "entities": []
+    },
+    {
+      "text": "wat doet ajax voor fans met een auditieve beperking?",
+      "intent": "accessibility",
+      "entities": []
+    },
+    {
+      "text": "wat doet ajax voor fans met een visuele beperking",
+      "intent": "visueleBeperking",
+      "entities": []
+    },
+    {
+      "text": "wat doet ajax voor fans met een visuele beperking?",
+      "intent": "accessibility",
+      "entities": []
+    },
+    {
+      "text": "wat doet ajax voor lawaai sensitieve bezoekers?",
+      "intent": "accessibility",
+      "entities": []
+    },
+    {
+      "text": "wat doet de arena voor de hoogsensitieve fans",
+      "intent": "soundSensitivity",
+      "entities": []
+    },
+    {
+      "text": "wat geeft een seizoenkaart mij",
+      "intent": "seizoenskaartInfo",
+      "entities": []
+    },
+    {
+      "text": "wat heb ik aan een seizoenkaart",
+      "intent": "seizoenskaartInfo",
+      "entities": []
+    },
+    {
+      "text": "wat hebben seizoenkaarten mij te bieden",
+      "intent": "seizoenskaartInfo",
+      "entities": []
+    },
+    {
+      "text": "wat heeft een club card te bieden",
+      "intent": "clubCard",
+      "entities": []
+    },
+    {
+      "text": "wat het familie vak",
+      "intent": "FamilieticketInfo",
+      "entities": []
+    },
+    {
+      "text": "wat houd een familie ticket in",
+      "intent": "FamilieticketInfo",
+      "entities": []
+    },
+    {
+      "text": "wat houd het familie vak in",
+      "intent": "FamilieticketInfo",
+      "entities": []
+    },
+    {
+      "text": "wat is de datum",
+      "intent": "time",
+      "entities": []
+    },
+    {
+      "text": "wat is de score",
+      "intent": "games",
+      "entities": []
+    },
+    {
+      "text": "wat is de score tussen psv en az",
+      "intent": "games",
+      "entities": [
+        {
+          "entity": "club",
+          "startPos": 23,
+          "endPos": 25
+        },
+        {
+          "entity": "club",
+          "startPos": 30,
+          "endPos": 31
+        }
+      ]
+    },
+    {
+      "text": "wat is de tijd ?",
+      "intent": "time",
+      "entities": []
+    },
+    {
+      "text": "wat is een club card",
+      "intent": "clubCard",
+      "entities": []
+    },
+    {
+      "text": "wat is een clubcard",
+      "intent": "clubcard",
+      "entities": []
+    },
+    {
+      "text": "wat is een clubkaaert",
+      "intent": "clubcard",
+      "entities": []
+    },
+    {
+      "text": "wat is een clubkaart",
+      "intent": "clubcard",
+      "entities": []
+    },
+    {
+      "text": "wat is een familie ticket",
+      "intent": "FamilieticketInfo",
+      "entities": []
+    },
+    {
+      "text": "wat is een seizoenkaart",
+      "intent": "seizoenskaartInfo",
+      "entities": []
+    },
+    {
+      "text": "wat is een seizoenskaart",
+      "intent": "seizoenskaart",
+      "entities": []
+    },
+    {
+      "text": "wat is er voor lawaai sensitieve fans",
+      "intent": "soundSensitivity",
+      "entities": []
+    },
+    {
+      "text": "wat is het adres van de arena",
+      "intent": "arena",
+      "entities": []
+    },
+    {
+      "text": "wat is het adres van de johan cruijff arena",
+      "intent": "arena",
+      "entities": []
+    },
+    {
+      "text": "wat is het telefoonnummer van de arena",
+      "intent": "arena",
+      "entities": []
+    },
+    {
+      "text": "wat is je naam ?",
+      "intent": "name",
+      "entities": []
+    },
+    {
+      "text": "wat is jouw naam",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "wat is jullie telefoonnummer ?",
+      "intent": "fancare",
+      "entities": []
+    },
+    {
+      "text": "wat is jullie telefoonnummer?",
+      "intent": "fancare",
+      "entities": []
+    },
+    {
+      "text": "wat kan ik allemaal kopen in de arena",
+      "intent": "arena",
+      "entities": []
+    },
+    {
+      "text": "wat kan ik doen voor het lawaai",
+      "intent": "soundSensitivity",
+      "entities": []
+    },
+    {
+      "text": "wat kan ik met een club card",
+      "intent": "clubCard",
+      "entities": []
+    },
+    {
+      "text": "wat kan ik met mijn tas doen",
+      "intent": "BagPolicy",
+      "entities": []
+    },
+    {
+      "text": "wat kan ik op de ajax fanshop kopen?",
+      "intent": "fanshop",
+      "entities": []
+    },
+    {
+      "text": "wat kan ik voor maatregelingen nemen voor mijn geluids sensitiviteit",
+      "intent": "soundSensitivity",
+      "entities": []
+    },
+    {
+      "text": "wat kan je allemaal ?",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "wat kan je voor mij doen?",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "wat kost een biertje",
+      "intent": "beveragePrices",
+      "entities": []
+    },
+    {
+      "text": "wat kost een biertje ?",
+      "intent": "beveragePrices",
+      "entities": []
+    },
+    {
+      "text": "wat kost een cappuchino",
+      "intent": "beveragePrices",
+      "entities": []
+    },
+    {
+      "text": "wat kost een glas water",
+      "intent": "beveragePrices",
+      "entities": []
+    },
+    {
+      "text": "wat kost een hotdog",
+      "intent": "beveragePrices",
+      "entities": []
+    },
+    {
+      "text": "wat kost een kopje koffie",
+      "intent": "beveragePrices",
+      "entities": []
+    },
+    {
+      "text": "wat kost een zakje chips",
+      "intent": "beveragePrices",
+      "entities": []
+    },
+    {
+      "text": "wat verkopen jullie in de fanshop",
+      "intent": "fanshop",
+      "entities": []
+    },
+    {
+      "text": "wat vind j van feyenoord?",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "wat vind je zelf van johan cruijf?",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "wat was de laatste wedstrijd?",
+      "intent": "games",
+      "entities": []
+    },
+    {
+      "text": "wat was de score tussen ajax en fc utrecht",
+      "intent": "games",
+      "entities": []
+    },
+    {
+      "text": "wat wordt er gedaan voor beperkte bezoekers",
+      "intent": "toegankelijkheidVoorMensenMetEenBeperking",
+      "entities": []
+    },
+    {
+      "text": "wat zijn de familievriendelijke maatregelen?",
+      "intent": "families",
+      "entities": []
+    },
+    {
+      "text": "wat zijn de verboden voorwerpen",
+      "intent": "ForbiddenItems",
+      "entities": []
+    },
+    {
+      "text": "wat zijn familievriendelijke maatregelen",
+      "intent": "families",
+      "entities": []
+    },
+    {
+      "text": "wat zijn high risk wedstrijden?",
+      "intent": "games",
+      "entities": []
+    },
+    {
+      "text": "wejkfnjgnjknjwg",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "welke ingang is geschikt voor rolstoelen",
+      "intent": "accessibility",
+      "entities": []
+    },
+    {
+      "text": "welke items zijn verboden in het stadion?",
+      "intent": "rules",
+      "entities": []
+    },
+    {
+      "text": "welke spelers zijn geblesseerd?",
+      "intent": "games",
+      "entities": []
+    },
+    {
+      "text": "welke spullen mag ik niet meenemen",
+      "intent": "ForbiddenItems",
+      "entities": []
+    },
+    {
+      "text": "welke talen spreek je",
+      "intent": "otherLanguages",
+      "entities": []
+    },
+    {
+      "text": "welke voorwerpen zijn verboden",
+      "intent": "ForbiddenItems",
+      "entities": []
+    },
+    {
+      "text": "welke voorwerpen zijn verboden in de arena",
+      "intent": "ForbiddenItems",
+      "entities": []
+    },
+    {
+      "text": "wie ben je ?",
+      "intent": "name",
+      "entities": []
+    },
+    {
+      "text": "wie gaan er komende wedstrijd winnen?",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "wie heeft de bot gemaakt?",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "wie heeft het meeste balbezit",
+      "intent": "games",
+      "entities": []
+    },
+    {
+      "text": "wie heeft jou gemaakt?",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "wie is je favoriete speler",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "wie is je favoriete voetballer?",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "wie is jou favoriete club?",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "wie is jou favoriete speler?",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "wie mogen in het familie vak",
+      "intent": "FamilieticketInfo",
+      "entities": []
+    },
+    {
+      "text": "wie spelen er aankomende wedstrijd?",
+      "intent": "games",
+      "entities": []
+    },
+    {
+      "text": "wie van de speler is het knapst?",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "wij zijn ajax, wij zijn de?",
+      "intent": "easterEggs",
+      "entities": []
+    },
+    {
+      "text": "worden hulphonden binnen gelaten",
+      "intent": "dogs",
+      "entities": []
+    },
+    {
+      "text": "wordt er rekening gehouden met beperkingen",
+      "intent": "toegankelijkheidVoorMensenMetEenBeperking",
+      "entities": []
+    },
+    {
+      "text": "zie je morgen",
+      "intent": "goodbye",
+      "entities": []
+    },
+    {
+      "text": "zijn begeleiders verplicht",
+      "intent": "wheelchairSupervisor",
+      "entities": []
+    },
+    {
+      "text": "zijn club cards te koop",
+      "intent": "clubCardKopen",
+      "entities": []
+    },
+    {
+      "text": "zijn de toiletten rolstoel vriendelijk?",
+      "intent": "accessibility",
+      "entities": []
+    },
+    {
+      "text": "zijn er club cards beschikbaar",
+      "intent": "clubCardKopen",
+      "entities": []
+    },
+    {
+      "text": "zijn er ehbo posten",
+      "intent": "families",
+      "entities": []
+    },
+    {
+      "text": "zijn er ehbo posten?",
+      "intent": "accessibility",
+      "entities": []
+    },
+    {
+      "text": "zijn er familievriendelijk maatregelen in het stadion",
+      "intent": "families",
+      "entities": []
+    },
+    {
+      "text": "zijn er familievriendelijke maatregelen",
+      "intent": "families",
+      "entities": []
+    },
+    {
+      "text": "zijn er familievriendelijke maatregelen in het stadion?",
+      "intent": "families",
+      "entities": []
+    },
+    {
+      "text": "zijn er gehandicaptentoiletten?",
+      "intent": "accessibility",
+      "entities": []
+    },
+    {
+      "text": "zijn er kortingen voor familien?",
+      "intent": "families",
+      "entities": []
+    },
+    {
+      "text": "zijn er kortingen voor families",
+      "intent": "families",
+      "entities": []
+    },
+    {
+      "text": "zijn er liften",
+      "intent": "roltrappen",
+      "entities": []
+    },
+    {
+      "text": "zijn er liften of roltrappen?",
+      "intent": "accessibility",
+      "entities": []
+    },
+    {
+      "text": "zijn er maatregelingen voor bezoekers met een beperking",
+      "intent": "toegankelijkheidVoorMensenMetEenBeperking",
+      "entities": []
+    },
+    {
+      "text": "zijn er mogelijkheden voor beperkte fans",
+      "intent": "toegankelijkheidVoorMensenMetEenBeperking",
+      "entities": []
+    },
+    {
+      "text": "zijn er roltrappen ?",
+      "intent": "roltrappen",
+      "entities": []
+    },
+    {
+      "text": "zijn er roltrappen in de arena /",
+      "intent": "roltrappen",
+      "entities": []
+    },
+    {
+      "text": "zijn er roltrappen?",
+      "intent": "roltrappen",
+      "entities": []
+    },
+    {
+      "text": "zijn er speciale vak voor families?",
+      "intent": "families",
+      "entities": []
+    },
+    {
+      "text": "zijn er speciale vak voor gehandicapten?",
+      "intent": "accessibility",
+      "entities": []
+    },
+    {
+      "text": "zijn er speciale vakken voor families",
+      "intent": "families",
+      "entities": []
+    },
+    {
+      "text": "zijn er tickets voor het mindervaliden gedeelte",
+      "intent": "wheelchairTickets",
+      "entities": []
+    },
+    {
+      "text": "zijn er tickets voor kinderen",
+      "intent": "FamilieticketInfo",
+      "entities": []
+    },
+    {
+      "text": "zijn er tickets voor rolstoelgebruikers",
+      "intent": "wheelchairTickets",
+      "entities": []
+    },
+    {
+      "text": "zijn er toilleten",
+      "intent": "Toilets",
+      "entities": []
+    },
+    {
+      "text": "zijn er tours ?",
+      "intent": "tour",
+      "entities": []
+    },
+    {
+      "text": "zijn er wc's",
+      "intent": "Toilets",
+      "entities": []
+    },
+    {
+      "text": "zijn toezichthouders nodig voor mindervaliden",
+      "intent": "wheelchairSupervisor",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
